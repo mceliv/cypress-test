@@ -28,7 +28,7 @@ jobs:
     - run: npm install
   
     # executar os testes
-    - run: npmx cypress run
+    - run: npx cypress run
     
     # merge do relatorio
     - run: npm run report:merge
