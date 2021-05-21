@@ -1,0 +1,16 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "experimentalStudio": true,
+    "baseUrl": "https://react-redux.realworld.io",
+    "env": {
+        "apiUrl": "https://conduit.productionready.io/api",
+        "user": {
+            "email": "harrypotter@ministeriodamagia.com.br", 
+            "password": "harrypotter"
+        }
+    },
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}
